@@ -1,0 +1,5 @@
+PyCharm报错:Please specify a different SDK name解决方法
+这个问题出现的原因是因为PyCharm中存在相同名字的虚拟环境变量。
+出错原因是，一直使用PyCharm的默认设置来建立工程，所以每个工程都建立了自己独立的虚拟环境。
+删除了一些工程后，又建立相同名字的工程。所以才会出现存在相同的虚拟环境名的现象。
+解决方法：Settings——Project Interpreter——show all 删除相同虚拟环境名字的虚拟环境
