@@ -5,3 +5,11 @@ PyCharm报错:Please specify a different SDK name解决方法
 解决方法：Settings——Project Interpreter——show all 删除相同虚拟环境名字的虚拟环境
 
 py文件需要放在venv文件夹下
+
+关于虚拟interpreter中没有根interpreter的package问题
+1. 进入Project Interpreters页面
+文件(file)——>设置(setting)——>项目(Project)——>Project Interpreters
+点击齿轮，选择Add Local
+2. 选择Base interpreter
+3. 勾选Inherit global site-packages
+   则可以使用base interpreter中的第三方库（及可以使用2中配置的python环境所安装的所有组件），不选将和外界完全隔离；
