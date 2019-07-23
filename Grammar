@@ -1,0 +1,10 @@
+Python中from...import与import......as的区别
+
+from...import
+如 from A import b,相当于
+import A
+b=A.b
+在此过程中有一个隐含的赋值的过程
+
+import......as
+import A as B,给予A库一个B的别称，帮助记忆
