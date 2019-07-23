@@ -14,3 +14,9 @@ py文件需要放在venv文件夹下
 2. 选择Base interpreter
 3. 勾选Inherit global site-packages（创建时应勾选）
    则可以使用base interpreter中的第三方库（及可以使用2中配置的python环境所安装的所有组件），不选将和外界完全隔离；
+
+python、pip安装完后要在环境变量中添加python.exe路径，否则未安装成功
+pip安装python库教程，链接http://blog.csdn.net/sd2558448/article/details/51234809
+
+windows下pip安装python模块时报错总结
+https://www.cnblogs.com/liaojiafa/p/5100550.html
