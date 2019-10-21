@@ -8,3 +8,8 @@ b=A.b
 
 import......as
 import A as B,给予A库一个B的别称，帮助记忆
+
+类继承中的super
+用于调用父类(超类)的一个方法。
+super(Class, self).xxx
+构造方法中的初始值无法继承,使用super函数会查找所有的超类，以及超类的超类，直到找到所需的特性为止。
