@@ -1,5 +1,6 @@
 #setup文件需要与package文件夹位于同一目录下
 #在当前目录下python setup.py sdist可生成tar.gz压缩包
+#安装模块使用python setup.py install
 from distutils.core import setup
 
 setup(
