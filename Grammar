@@ -30,3 +30,7 @@ print("string=%-6s" %string)  # 输出的打印结果为 string=good  (当字符
 print("string=%.3(6)s" %string)  # 输出的打印结果为 string=goo(good)(%.3s的意思是：截取字符串的前3个字符，当截取字符串的字符长度大于字符串时，输出的结果是整个字符串)
 print("string=%a.bs" %string)  # 先是根据小数点后面的数字b截取字符串，当截取的字符串长度小于a时，需要在字符串的左侧填补空格，使得字符串的长度变为a
 print("string=%*.*s" %(6, 3, string))  # %*.*s表示精度， 两个*的值分别由%string前面被两个逗号隔开的数值来指定
+
+
+opencv字体常量解释
+https://blog.csdn.net/u011826081/article/details/80604074
