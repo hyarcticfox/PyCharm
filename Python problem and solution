@@ -21,13 +21,7 @@ pip安装python库教程，链接http://blog.csdn.net/sd2558448/article/details/
 windows下pip安装python模块时报错总结
 https://www.cnblogs.com/liaojiafa/p/5100550.html
 
-Pycharm下QT工具加入
-QtDesigner:
-Settings-Tools-External Tools 添加：Name QtDesigner  Group Qt（随意）  
-Program: QtDesigner所在路径   Working Directory: $ProjectFileDir$
-Pyuic:
-Settings-Tools-External Tools 添加：Name Pyuic  Group Qt（随意）  
-Program: python.exe所在路径  Arguments: -m PyQt5.uic.pyuic $FileName$ -o $FileNameWithoutExtension$.py     Working Directory: $FileDir$
+
 
 py工程pyinstaller打包
 工程路径下 pyinstaller -F  -w  -i  xxx.ico  xxx.py   生成的exe在dist文件夹下
